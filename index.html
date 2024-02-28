@@ -30,6 +30,7 @@
         <ul>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li><a class="nav-link scrollto " href="certificates.html#certificates">Certificates</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -142,7 +143,8 @@
                     </div>
                   </div>
                   <br>
-                  <button id='modal-button' type="button" class="col-12 btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#certificates-modal">Certificates of completed codecademy courses <i class="fas fa-link"></i></use></button>
+                  <!-- <button id='modal-button' type="button" class="col-12 btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#certificates-modal">Certificates of completed codecademy courses <i class="fas fa-link"></i></use></button> -->
+                  <a href="certificates.html"><button id='certificates-button' type="button" class="col-12 btn btn-outline-secondary" >Certificates of completed codecademy courses <i class="fas fa-link"></i></button></a>
                 </div>
                 <div class="col-md-6">
                   <div class="about-me pt-4 pt-md-0">
@@ -373,9 +375,9 @@
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <!-- <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div> -->
+                    <div class="w-like" type="button" data-bs-toggle="modal" data-bs-target="#gazeteer-modal">
+                      <span class="bi bi-plus-circle"></span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -397,9 +399,9 @@
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <!-- <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div> -->
+                    <div class="w-like" type="button" data-bs-toggle="modal" data-bs-target="#e-commerce-modal">
+                      <span class="bi bi-plus-circle"></span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -415,15 +417,15 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Restaurane</h2>
+                    <h2 class="w-title">Restaurant</h2>
                     <div class="w-more">
                       <span class="w-ctegory">Full-stack</span> / <span class="w-date">10 Nov 2023</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <!-- <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div> -->
+                    <div class="w-like" type="button" data-bs-toggle="modal" data-bs-target="#restaurant-modal">
+                      <span class="bi bi-plus-circle"></span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -433,6 +435,59 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+    <!-- Gazeteer modal -->
+    <div class="modal fade" id="gazeteer-modal" tabindex="-1" aria-labelledby="Gazeteer Modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+              <div class="modal-header bg-dark">
+                  <h1 class="modal-title fs-5 text-light">Gazeteer.</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <h3>Details of Gazeteer project.</h3>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- e-commerce modal -->
+    <div class="modal fade" id="e-commerce-modal" tabindex="-1" aria-labelledby="E-commerce Modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+              <div class="modal-header bg-dark">
+                  <h1 class="modal-title fs-5 text-light">E-commerce.</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <h3>Details of e-commerce project</h3>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Restaurant modal -->
+    <div class="modal fade" id="restaurant-modal" tabindex="-1" aria-labelledby="Restaurant Modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+              <div class="modal-header bg-dark">
+                  <h1 class="modal-title fs-5 text-light">E-commerce.</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <h3>Details of restaurant project</h3>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+    </div>
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
