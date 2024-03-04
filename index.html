@@ -29,7 +29,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li><a class="nav-link scrollto " href="#work">Portfolio</a></li>
           <li><a class="nav-link scrollto " href="certificates.html#certificates">Certificates</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -154,14 +154,13 @@
                       </h5>
                     </div>
                     <p class="lead">
-                      Hi, I'm Krystian Domagala and I'm a Full-Stack developer. I have completed the Full-Stack developer career
-                      path on Codecademy, along side other Codecademy courses, and have completed numberous Full-Stack projects using different programing languages.
+                      My name is Krystian Domagala and I'm a Full-Stack developer. I have completed the Full-Stack developer career
+                      path on Codecademy, along side other Codecademy courses, and have completed numberous Full-Stack projects using
+                      different programing languages.
                     </p>
                     <p class="lead">
-                      I specialise in responsive design and back-end data manipulation.
-                    </p>
-                    <p class="lead">
-                      
+                      I am passionate about responsive design and enjoy finding efficient ways to extract and format data before
+                      displaying it to the end user in an intuative format.
                     </p>
                   </div>
                 </div>
@@ -171,23 +170,6 @@
         </div>
       </div>
     </section><!-- End About Section -->
-
-    <div class="modal fade" id="certificates-modal" tabindex="-1" aria-labelledby="Certificates Modal" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-          <div class="modal-content">
-              <div class="modal-header bg-secondary">
-                  <h1 class="modal-title fs-5 text-light">Certificates.</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                Certificates to come...
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-          </div>
-      </div>
-  </div>
 
     <!-- ======= Services Section =======
     <section id="services" class="services-mf pt-5 route">
@@ -311,7 +293,7 @@
                 <span class="ico-circle"><i class="bi bi-check"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="counter purecounter"></p>
+                <p data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="counter purecounter"></p>
                 <span class="counter-text">FULL-STACK PROJECTS COMPLETED</span>
               </div>
             </div>
@@ -333,8 +315,8 @@
                 <span class="ico-circle"><i class="bi bi-award"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">COURSES COMPLETED</span>
+                <p data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">COURSES COMPLETED (WITH CERTIFICATES)</span>
               </div>
             </div>
           </div>
@@ -375,9 +357,7 @@
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <div class="w-like" type="button" data-bs-toggle="modal" data-bs-target="#gazeteer-modal">
-                      <span class="bi bi-plus-circle"></span>
-                    </div>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#gazeteer-modal">Details</button>
                   </div>
                 </div>
               </div>
@@ -399,9 +379,7 @@
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <div class="w-like" type="button" data-bs-toggle="modal" data-bs-target="#e-commerce-modal">
-                      <span class="bi bi-plus-circle"></span>
-                    </div>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#e-commerce-modal">Details</button>
                   </div>
                 </div>
               </div>
@@ -423,9 +401,7 @@
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <div class="w-like" type="button" data-bs-toggle="modal" data-bs-target="#restaurant-modal">
-                      <span class="bi bi-plus-circle"></span>
-                    </div>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#restaurant-modal">Details</button>
                   </div>
                 </div>
               </div>
@@ -437,35 +413,90 @@
 
     <!-- Gazeteer modal -->
     <div class="modal fade" id="gazeteer-modal" tabindex="-1" aria-labelledby="Gazeteer Modal" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-          <div class="modal-content">
-              <div class="modal-header bg-dark">
-                  <h1 class="modal-title fs-5 text-light">Gazeteer.</h1>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                  <h3>Details of Gazeteer project.</h3>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-              </div>
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header bg-dark">
+            <h1 class="modal-title fs-5 text-light">Gazeteer.</h1>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <div class="modal-body">
+            <h3>Front end</h3>
+            <p>The front-end is handled with basic HTML using Bootstrap for styling. This is a Single-Page-Application with all the HTML residing in 1 file.</p>
+            <p>
+              The HTML for the select bar is created using jQuery using data from an API call.
+            </p>
+            <p>
+              The map is displayed using the leaflet API.
+            </p>
+            <h3>Back-end</h3>
+            <p>
+              The back-end is handled using PHP to make API calls for the different features of the website.
+            </p>
+            <p>
+              Elements of the websites are updated using jQuery, which is also used to detect
+              user clicks, which executes the PHP code to fetch data from APIs.
+            </p>
+            <p>
+              Some elements are updates on load. This website also features a pre-loader.
+            </p>
+            <b>
+              Website is currently work in progress.
+            </b>
+          </div>
+          <div class="modal-footer justify-content-start">
+            <a href="https://gazeteer.kdomagala.co.uk/" target="_blank" type="button" class="btn btn-secondary">Website</a>
+            <a href="https://github.com/K-Domagala/task" target="_blank" type="button" class="btn btn-secondary">Github repository</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- e-commerce modal -->
     <div class="modal fade" id="e-commerce-modal" tabindex="-1" aria-labelledby="E-commerce Modal" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
           <div class="modal-content">
               <div class="modal-header bg-dark">
-                  <h1 class="modal-title fs-5 text-light">E-commerce.</h1>
+                  <h1 class="modal-title fs-5 text-light">NailRepair.</h1>
                   <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                  <h3>Details of e-commerce project</h3>
+                <h3>Brief</h3>
+                <p>This is an e-commerce Single-Page-Application, where users can create accounts, look for items to add to their basket and securely complete their checkout.</p>
+                <h3>Front end (React)</h3>
+                <p>
+                  Front-end is made using the React library, with redux used as the state container.
+                </p>
+                <p>
+                  React-Router is used to handle all the routes, turning this into a Single-Page-Application.
+                </p>
+                <p>
+                  All CSS is done from scratch without using any framework.
+                </p>
+                <h3>Back-end (Express.js)</h3>
+                <p>
+                  The back-end is a RESTful API managed by the express framework.
+                </p>
+                <p>
+                  The login authentication is handled using the passport library. All passwords managed in this application are hashed for safety.
+                </p>
+                <h3>Database (PostgreSQL)</h3>
+                <p>
+                  This web application uses a PostgreSQl database.
+                </p>
+                <p>
+                  Any calls made to the database is handled using the node-postgres module. Parameterized queries are used to reduce SQL injection vulnerabilities.
+                </p>
+              </div>
+              <div class="modal-footer justify-content-start">
+                <a href="https://nailrepair.kdomagala.co.uk/" target="_blank" type="button" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/K-Domagala/e-commerce" target="_blank" type="button" class="btn btn-secondary">Github (back-end)</a>
+                <a href="https://github.com/K-Domagala/e-commerce-front" target="_blank" type="button" class="btn btn-secondary">Github (front-end)</a>
               </div>
               <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
               </div>
           </div>
       </div>
@@ -473,7 +504,7 @@
 
     <!-- Restaurant modal -->
     <div class="modal fade" id="restaurant-modal" tabindex="-1" aria-labelledby="Restaurant Modal" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
           <div class="modal-content">
               <div class="modal-header bg-dark">
                   <h1 class="modal-title fs-5 text-light">E-commerce.</h1>
